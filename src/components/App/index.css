@@ -1,0 +1,15 @@
+tr, td {
+    transition: padding-left .15s, background-color .15s;
+}
+
+td.delicious {
+    padding-left: 30px!important;
+}
+
+tr.healthy {
+    background-color: #04a05c!important;
+}
+
+input.search-input {
+    margin-left: 20px;
+}
