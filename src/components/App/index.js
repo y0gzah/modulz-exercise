@@ -28,7 +28,7 @@ class App extends Component {
     constructor() {
         super();
 
-        // Load items from localStorageor use default items
+        // Load items from localStorage or use default items
         var itemsFromStorage = localStorage.getItem('items');
         this.state = {
             items: itemsFromStorage ? JSON.parse(itemsFromStorage) : Items,
